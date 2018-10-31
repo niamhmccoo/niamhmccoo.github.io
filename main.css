@@ -1,0 +1,184 @@
+nav {
+
+  overflow: auto;
+  padding-bottom: 2vw;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: solid thin;
+  border: 0;
+
+}
+
+ul {
+
+  list-style: none;
+  float: right;
+
+}
+
+h1 {
+
+  display: inline;
+
+}
+
+h2 {
+
+  display: block;
+
+}
+
+h4 {
+
+  margin-top: 0;
+  margin-bottom; 1vw;
+  border-top: solid thin grey;
+  padding-top: 4vw;
+  padding-bottom: 1vw;
+
+}
+
+h5 {
+
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+
+}
+
+p {
+
+  margin-top: 0;
+
+}
+
+body {
+
+  padding-left: 8vw;
+  padding-right: 8vw;
+  font-family: 'Didact Gothic', sans-serif;
+
+}
+
+a {
+
+  text-decoration: none;
+  color: black;
+  transition: color 1s;
+
+}
+
+a:hover {
+
+  color: grey;
+  font-weight: bold;
+  transition: color .5s;
+
+}
+
+main {
+
+  display: block;
+  overflow: hidden;
+  column-count: 3;
+  column-gap: 4vw;
+  padding-bottom: 2vw;
+  padding-top: 4vw;
+  min-width: 100%;
+  border-top: solid thin grey;
+
+}
+
+.eternityanyways, .honeyimhome, .selvedge, .fatm,
+ .findingdivismorecrescent, .buffalo, .finbarrnolan,
+ .bandits, .dennismcnulty, .premonition, .worksuite,
+  .article-page {
+
+  display: block;
+  overflow: hidden;
+  column-count: 2;
+  column-gap: 4vw;
+  padding-bottom: 5%;
+  min-width: 100%;
+
+}
+
+.about {
+
+  display: block;
+  column-count: 1;
+
+}
+
+article, figure {
+
+  display: inline;
+  min-width: 27em;
+  padding-bottom: 1em;
+  padding: 0;
+  border: 0;
+  margin: 0;
+
+}
+
+img, a img {
+
+  display: block;
+  width: 100%;
+  margin: 0 auto 2vw auto;
+
+}
+
+a img {
+
+  margin: 0 auto 4vw auto;
+  transition: opacity 0.5s;
+
+}
+
+a img:hover {
+
+  opacity: .5;
+
+}
+
+footer {
+
+  border-top: solid thin;
+  border-color: grey;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-size: small;
+
+}
+
+@media only screen and (max-width: 800px) {
+
+main {
+
+    column-count: 2;
+
+  }
+
+body {
+
+    padding: 4em;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  main, .article-page {
+
+    column-count: 1;
+
+  }
+
+  body {
+
+    padding: 1em;
+
+  }
+}
