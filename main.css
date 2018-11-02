@@ -150,15 +150,6 @@ footer {
 
 }
 
-.footer-image {
-
-  display: inline;
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-
-}
-
 @media only screen and (max-width: 800px) {
 
 main {
@@ -184,7 +175,7 @@ body {
 
   body {
 
-    padding: 1em;
+    padding: 2em;
 
   }
 }
